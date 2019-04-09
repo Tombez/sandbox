@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	background-color: #000;
+}
+
+#canvas {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	/* https://devlog.disco.zone/2016/07/22/canvas-scaling/ */
+	image-rendering: -moz-crisp-edges; /* Firefox */
+	image-rendering: -webkit-crisp-edges; /* Webkit (Safari) */
+	image-rendering: pixelated; /* Chrome */
+}
